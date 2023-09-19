@@ -1,0 +1,57 @@
+<!DOCTYPE web-app PUBLIC
+ "-//Sun Microsystems, Inc.//DTD Web Application 2.3//EN"
+ "http://java.sun.com/dtd/web-app_2_3.dtd" >
+
+<web-app>
+  <display-name>Archetype Created Web Application</display-name>
+  <servlet>
+  	<servlet-name>LoginCTL</servlet-name>
+  	<display-name>LoginCTL</display-name>
+  	<description></description>
+  	<servlet-class>javawebapplication.controller.LoginCTL</servlet-class>
+  </servlet>
+  <servlet>
+  	<servlet-name>UserCTL</servlet-name>
+  	<display-name>UserCTL</display-name>
+  	<description></description>
+  	<servlet-class>javawebapplication.controller.UserCTL</servlet-class>
+  </servlet>
+  <servlet>
+  	<servlet-name>WelcomeCTL</servlet-name>
+  	<display-name>WelcomeCTL</display-name>
+  	<description></description>
+  	<servlet-class>javawebapplication.controller.WelcomeCTL</servlet-class>
+  </servlet>
+  <servlet>
+  	<servlet-name>UserListCTL</servlet-name>
+  	<display-name>UserListCTL</display-name>
+  	<description></description>
+  	<servlet-class>javawebapplication.controller.UserListCTL</servlet-class>
+  </servlet>
+  <servlet>
+  	<servlet-name>UploadImage</servlet-name>
+  	<display-name>UploadImage</display-name>
+  	<description></description>
+  	<servlet-class>javawebapplication.controller.UploadImage</servlet-class>
+  </servlet>
+  <servlet-mapping>
+  	<servlet-name>LoginCTL</servlet-name>
+  	<url-pattern>/LoginCTL</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>UserCTL</servlet-name>
+  	<url-pattern>/UserCTL</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>WelcomeCTL</servlet-name>
+  	<url-pattern>/WelcomeCTL</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>UserListCTL</servlet-name>
+  	<url-pattern>/UserListCTL</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>UploadImage</servlet-name>
+  	<url-pattern>/UploadImage</url-pattern>
+  </servlet-mapping>
+</web-app>
